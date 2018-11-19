@@ -56,8 +56,8 @@ class App extends Component {
   getMarkers = () => {
     const endpoint = 'https://api.foursquare.com/v2/venues/explore?';
     const params = {
-      client_id: "QHTNVLEETPN2YOQO3NQGVRHNXCTD02BNUULMUBMR0SFVE5HK",
-      client_secret: "LFR2SJIN5BW4EFE3LUXX0HYJRHERBOF5OISGDRAJMXKH3YR4",
+      client_id: "CLIENT_ID",
+      client_secret: "CLIENT_SECRET",
       query: "camp fire",
       near: "California",
       v: "20181118"
